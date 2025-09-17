@@ -1,12 +1,12 @@
 #include <string>
-class Account {
+class Account2 {
 public:
-	explicit Account(std::string accName) 
-		: name{accName} {}
+	explicit Account2(std::string accName):
+		name{accName} {}
 	void setName(std::string accName) {
 		name = accName;
 	}
-	std::string getName() const {
+	std::string getName() {
 		return name;
 	}
 private:
